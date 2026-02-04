@@ -1,0 +1,26 @@
+#define FALSE 0
+#define TRUE 1
+
+#define WINDOW_WIDTH 800
+#define WINDOW_HEIGHT 600
+
+#define FPS 30
+#define FRAME_TARGET_TIME (1000 / FPS)
+
+#define LEFT_TURN 0
+#define RIGHT_TURN 1
+
+#define PADDLE_UP_VELOCITY -1
+#define PADDLE_DOWN_VELOCITY 1
+#define PADDLE_STATIONARY_VELOCITY 0
+#define PADDLE_SPEED 150
+
+#define BALL_SPEED 150
+
+#define GOAL_MARGIN 48
+
+#define MIN_SKEW_ANGLE 12
+#define MAX_SKEW_ANGLE 4
+
+#define CENTER_LINE_WIDTH 4
+#define CENTER_LINE_DOTS 16
